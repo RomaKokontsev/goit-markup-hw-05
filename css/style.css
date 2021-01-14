@@ -731,7 +731,7 @@ address{
     margin-right: 8px;
     width: 30px;
     height: 30px;
-    padding: 6px;
+    justify-content: center;
     background-color: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
