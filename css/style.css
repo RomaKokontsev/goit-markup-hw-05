@@ -181,22 +181,21 @@ main{
 .hero{
     background-color:#C4C4C4;
     text-align: center;
-}
-
-.hero-container{
-    max-width: 1600px;
-    height: 600px;
     background-image:linear-gradient(
         to right,rgba(47, 48, 58, 0.4),
                  rgba(47, 48, 58, 0.4)),
     url(../images/bghero.jpg);
-
-    
-    background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+}
+
+.hero-container{
+    min-width: 1600px;
+    height: 600px;
+              
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
 }
 
 
